@@ -1,0 +1,6 @@
+<?xml version="1.0" ?>
+<LOG_ROOT>
+	<PROJECT NAME="avanzar_qsim">
+		<CBX_INST_ENTRY INSTANCE_NAME="|comparador_adc|lpm_compare:LPM_COMPARE_component" CBX_FILE_NAME="cmpr_kfj.tdf"/>
+	</PROJECT>
+</LOG_ROOT>

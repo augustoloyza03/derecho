@@ -1,0 +1,427 @@
+/*
+WARNING: Do NOT edit the input and output ports in this file in a text
+editor if you plan to continue editing the block that represents it in
+the Block Editor! File corruption is VERY likely to occur.
+*/
+/*
+Copyright (C) 1991-2013 Altera Corporation
+Your use of Altera Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Altera Program License 
+Subscription Agreement, Altera MegaCore Function License 
+Agreement, or other applicable license agreement, including, 
+without limitation, that your use is for the sole purpose of 
+programming logic devices manufactured by Altera and sold by 
+Altera or its authorized distributors.  Please refer to the 
+applicable agreement for further details.
+*/
+(header "graphic" (version "1.4"))
+(pin
+	(input)
+	(rect -128 288 40 304)
+	(text "INPUT" (rect 125 0 153 10)(font "Arial" (font_size 6)))
+	(text "p0" (rect 5 0 16 12)(font "Arial" ))
+	(pt 168 8)
+	(drawing
+		(line (pt 84 12)(pt 109 12))
+		(line (pt 84 4)(pt 109 4))
+		(line (pt 113 8)(pt 168 8))
+		(line (pt 84 12)(pt 84 4))
+		(line (pt 109 4)(pt 113 8))
+		(line (pt 109 12)(pt 113 8))
+	)
+	(text "VCC" (rect 128 7 148 17)(font "Arial" (font_size 6)))
+)
+(pin
+	(input)
+	(rect -128 320 40 336)
+	(text "INPUT" (rect 125 0 153 10)(font "Arial" (font_size 6)))
+	(text "p1" (rect 5 0 16 12)(font "Arial" ))
+	(pt 168 8)
+	(drawing
+		(line (pt 84 12)(pt 109 12))
+		(line (pt 84 4)(pt 109 4))
+		(line (pt 113 8)(pt 168 8))
+		(line (pt 84 12)(pt 84 4))
+		(line (pt 109 4)(pt 113 8))
+		(line (pt 109 12)(pt 113 8))
+	)
+	(text "VCC" (rect 128 7 148 17)(font "Arial" (font_size 6)))
+)
+(pin
+	(input)
+	(rect -128 352 40 368)
+	(text "INPUT" (rect 125 0 153 10)(font "Arial" (font_size 6)))
+	(text "p2" (rect 5 0 16 12)(font "Arial" ))
+	(pt 168 8)
+	(drawing
+		(line (pt 84 12)(pt 109 12))
+		(line (pt 84 4)(pt 109 4))
+		(line (pt 113 8)(pt 168 8))
+		(line (pt 84 12)(pt 84 4))
+		(line (pt 109 4)(pt 113 8))
+		(line (pt 109 12)(pt 113 8))
+	)
+	(text "VCC" (rect 128 7 148 17)(font "Arial" (font_size 6)))
+)
+(pin
+	(input)
+	(rect -128 392 40 408)
+	(text "INPUT" (rect 125 0 153 10)(font "Arial" (font_size 6)))
+	(text "p3" (rect 5 0 16 12)(font "Arial" ))
+	(pt 168 8)
+	(drawing
+		(line (pt 84 12)(pt 109 12))
+		(line (pt 84 4)(pt 109 4))
+		(line (pt 113 8)(pt 168 8))
+		(line (pt 84 12)(pt 84 4))
+		(line (pt 109 4)(pt 113 8))
+		(line (pt 109 12)(pt 113 8))
+	)
+	(text "VCC" (rect 128 7 148 17)(font "Arial" (font_size 6)))
+)
+(pin
+	(input)
+	(rect -104 648 64 664)
+	(text "INPUT" (rect 125 0 153 10)(font "Arial" (font_size 6)))
+	(text "sensor_fron" (rect 5 0 64 12)(font "Arial" ))
+	(pt 168 8)
+	(drawing
+		(line (pt 84 12)(pt 109 12))
+		(line (pt 84 4)(pt 109 4))
+		(line (pt 113 8)(pt 168 8))
+		(line (pt 84 12)(pt 84 4))
+		(line (pt 109 4)(pt 113 8))
+		(line (pt 109 12)(pt 113 8))
+	)
+	(text "VCC" (rect 128 7 148 17)(font "Arial" (font_size 6)))
+)
+(pin
+	(input)
+	(rect -120 496 48 512)
+	(text "INPUT" (rect 125 0 153 10)(font "Arial" (font_size 6)))
+	(text "sensor_lin" (rect 5 0 54 12)(font "Arial" ))
+	(pt 168 8)
+	(drawing
+		(line (pt 84 12)(pt 109 12))
+		(line (pt 84 4)(pt 109 4))
+		(line (pt 113 8)(pt 168 8))
+		(line (pt 84 12)(pt 84 4))
+		(line (pt 109 4)(pt 113 8))
+		(line (pt 109 12)(pt 113 8))
+	)
+	(text "VCC" (rect 128 7 148 17)(font "Arial" (font_size 6)))
+)
+(pin
+	(output)
+	(rect 1160 464 1336 480)
+	(text "OUTPUT" (rect 1 0 39 10)(font "Arial" (font_size 6)))
+	(text "gir_izq" (rect 90 0 120 12)(font "Arial" ))
+	(pt 0 8)
+	(drawing
+		(line (pt 0 8)(pt 52 8))
+		(line (pt 52 4)(pt 78 4))
+		(line (pt 52 12)(pt 78 12))
+		(line (pt 52 12)(pt 52 4))
+		(line (pt 78 4)(pt 82 8))
+		(line (pt 82 8)(pt 78 12))
+		(line (pt 78 12)(pt 82 8))
+	)
+)
+(pin
+	(output)
+	(rect 1160 480 1336 496)
+	(text "OUTPUT" (rect 1 0 39 10)(font "Arial" (font_size 6)))
+	(text "gir_der" (rect 90 0 123 12)(font "Arial" ))
+	(pt 0 8)
+	(drawing
+		(line (pt 0 8)(pt 52 8))
+		(line (pt 52 4)(pt 78 4))
+		(line (pt 52 12)(pt 78 12))
+		(line (pt 52 12)(pt 52 4))
+		(line (pt 78 4)(pt 82 8))
+		(line (pt 82 8)(pt 78 12))
+		(line (pt 78 12)(pt 82 8))
+	)
+)
+(connector
+	(pt 1160 536)
+	(pt 1360 536)
+)
+(connector
+	(pt 1360 536)
+	(pt 1360 672)
+)
+(connector
+	(pt 1360 672)
+	(pt 1504 672)
+)
+(connector
+	(pt 1152 560)
+	(pt 1320 560)
+)
+(connector
+	(pt 1320 560)
+	(pt 1320 696)
+)
+(connector
+	(pt 1320 696)
+	(pt 1504 696)
+)
+(connector
+	(pt 792 456)
+	(pt 648 456)
+)
+(connector
+	(pt 648 456)
+	(pt 648 352)
+)
+(connector
+	(pt 792 472)
+	(pt 624 472)
+)
+(connector
+	(pt 624 472)
+	(pt 624 352)
+)
+(connector
+	(pt 624 352)
+	(pt 616 352)
+)
+(connector
+	(pt 792 512)
+	(pt 592 512)
+)
+(connector
+	(pt 592 512)
+	(pt 592 624)
+)
+(connector
+	(pt 800 520)
+	(pt 600 520)
+)
+(connector
+	(pt 792 528)
+	(pt 608 528)
+)
+(connector
+	(pt 792 544)
+	(pt 616 544)
+)
+(connector
+	(pt 600 520)
+	(pt 600 624)
+)
+(connector
+	(pt 608 528)
+	(pt 608 624)
+)
+(connector
+	(pt 616 544)
+	(pt 616 624)
+)
+(connector
+	(pt 264 840)
+	(pt 440 840)
+)
+(connector
+	(pt 304 904)
+	(pt 440 904)
+)
+(connector
+	(pt 328 920)
+	(pt 432 920)
+)
+(connector
+	(pt 296 928)
+	(pt 432 928)
+)
+(connector
+	(pt 432 928)
+	(pt 432 936)
+)
+(connector
+	(pt 304 936)
+	(pt 304 952)
+)
+(connector
+	(pt 304 952)
+	(pt 432 952)
+)
+(connector
+	(pt 344 1024)
+	(pt 440 1024)
+)
+(connector
+	(pt 344 1040)
+	(pt 440 1040)
+)
+(connector
+	(pt 336 1048)
+	(pt 448 1048)
+)
+(connector
+	(pt 448 1048)
+	(pt 448 1056)
+)
+(connector
+	(pt 344 1064)
+	(pt 432 1064)
+)
+(connector
+	(pt 432 1064)
+	(pt 432 1072)
+)
+(connector
+	(pt 912 656)
+	(pt 872 656)
+)
+(connector
+	(pt 720 1080)
+	(pt 720 1152)
+)
+(connector
+	(pt 1248 1048)
+	(pt 1256 1048)
+)
+(connector
+	(pt 1248 1176)
+	(pt 1248 1152)
+)
+(connector
+	(pt 1248 1152)
+	(pt 1248 1048)
+)
+(connector
+	(pt 720 1152)
+	(pt 912 1152)
+)
+(connector
+	(pt 912 576)
+	(pt 912 656)
+)
+(connector
+	(pt 912 656)
+	(pt 912 1152)
+)
+(connector
+	(pt 912 1152)
+	(pt 1248 1152)
+)
+(connector
+	(pt 1064 984)
+	(pt 1136 984)
+)
+(connector
+	(pt 1136 984)
+	(pt 1136 1000)
+)
+(connector
+	(pt 1072 1000)
+	(pt 1136 1000)
+)
+(connector
+	(pt 1136 1000)
+	(pt 1160 1000)
+)
+(connector
+	(pt 1080 1016)
+	(pt 1080 1008)
+)
+(connector
+	(pt 1080 1008)
+	(pt 1160 1008)
+)
+(connector
+	(pt 1088 1024)
+	(pt 1168 1024)
+)
+(connector
+	(pt 1168 1024)
+	(pt 1168 1008)
+)
+(connector
+	(pt 808 904)
+	(pt 1128 904)
+)
+(connector
+	(pt 1128 904)
+	(pt 1128 912)
+)
+(connector
+	(pt 832 888)
+	(pt 1112 888)
+)
+(connector
+	(pt 832 872)
+	(pt 1120 872)
+)
+(connector
+	(pt 1120 856)
+	(pt 792 856)
+)
+(connector
+	(pt 1120 864)
+	(pt 1120 856)
+)
+(connector
+	(pt 672 696)
+	(pt 672 760)
+)
+(connector
+	(pt 672 760)
+	(pt 1640 760)
+)
+(connector
+	(pt 1640 760)
+	(pt 1640 848)
+)
+(connector
+	(pt 1640 848)
+	(pt 1520 848)
+)
+(connector
+	(pt 672 688)
+	(pt 584 688)
+)
+(connector
+	(pt 584 688)
+	(pt 584 664)
+)
+(junction (pt 1248 1152))
+(junction (pt 912 1152))
+(junction (pt 912 656))
+(junction (pt 1136 1000))
+(text "ESQUEMÁTICO PARA LA VISUALIZACIÓN DEL CONTROL GENERAL" (rect 432 128 820 142)(font "Arial" (font_size 8)))
+(text "ENTRADAS" (rect -136 192 -70 206)(font "Arial" (font_size 8)))
+(text "sensor de linea (1 blanco y 0 negro) en el cual estará filtrado de rebotes" (rect -136 440 275 454)(font "Arial" (font_size 8)))
+(text "posición actual (esto me lo proveera otro código, en el cual inicializa en 0000)" (rect -128 248 312 262)(font "Arial" (font_size 8)))
+(text "sensor frontal (1 detecta obstáculo y 0 no detecta)" (rect -112 624 178 638)(font "Arial" (font_size 8)))
+(text "SALIDAS" (rect 1264 424 1317 438)(font "Arial" (font_size 8)))
+(text "gir_izq  gir_der" (rect 1432 416 1516 430)(font "Arial" (font_size 8)))
+(text "0               0                 avanza" (rect 1432 432 1601 446)(font "Arial" (font_size 8)))
+(text "0                 1                      gira derecha" (rect 1432 448 1656 462)(font "Arial" (font_size 8)))
+(text "1                  0                    gira izquierda" (rect 1432 464 1657 478)(font "Arial" (font_size 8)))
+(text "1                1                        giro 180" (rect 1432 480 1633 494)(font "Arial" (font_size 8)))
+(text "toma de decisión" (rect 904 424 999 438)(font "Arial" (font_size 8)))
+(text "(ESTAS SALIDAS LAS NECESITO PARA EL CODIGO DE UBICACION EL AUTO)" (rect 1320 496 1764 510)(font "Arial" (font_size 8)))
+(text "dos enable o uno, para la activacion de el bloque avanzar y el bloque girar" (rect 1536 632 1958 646)(font "Arial" (font_size 8)))
+(text "de alguna forma la orientacion (puede ser 4 bit, 2 bits, como sea) (q puede darla el codigo de ubicacion)" (rect 584 312 1174 326)(font "Arial" (font_size 8)))
+(text "la distancia de los 4 vecinos adyacentes" (rect 544 672 775 686)(font "Arial" (font_size 8)))
+(text "TENER EN CUENTA Q LA ORIENTACION ES SOLO AL ENTRAR A LA CUADRICULA" (rect 728 360 1196 374)(font "Arial" (font_size 8)))
+(text "EN CASO DE GIRAR EN LA MISMA CUADRICULA Y NO AVANZAR (POR PARED O ALGO) LA ORIENTACION DE LAS ENTRADAS NO VA A SER LA CORRECTA" (rect 640 384 1545 398)(font "Arial" (font_size 8)))
+(text "SENSON ENFRENTE" (rect 224 816 337 830)(font "Arial" (font_size 8)))
+(text "ORIENTACION!!(4 BITS O COMO SEAN HAY Q HACERLO, NO ES DIFICIL)" (rect 64 888 474 902)(font "Arial" (font_size 8)))
+(text "DETECTOR DE MUROS" (rect 576 816 704 830)(font "Arial" (font_size 8)))
+(text "ACTUALIZACION DE PESOS VECINOS" (rect 1208 816 1425 830)(font "Arial" (font_size 8)))
+(text "CLOCK" (rect 832 648 873 662)(font "Arial" (font_size 8)))
+(text "POSICION ACTUAL" (rect 224 1056 332 1070)(font "Arial" (font_size 8)))
+(text "POSICION ACTUAL" (rect 960 1000 1068 1014)(font "Arial" (font_size 8)))
+(text "LOS MUROS DE MI POSICION" (rect 968 808 1133 822)(font "Arial" (font_size 8)))
+(text "SALEN 4 NUMEROS DE 4 BITS" (rect 1640 808 1812 822)(font "Arial" (font_size 8)))
+(rectangle (rect 800 416 1144 576))
+(rectangle (rect 440 800 832 1072))
+(rectangle (rect 1112 808 1512 1048))

@@ -1,0 +1,104 @@
+|comparador_adc
+dataa[0] => lpm_compare:LPM_COMPARE_component.dataa[0]
+dataa[1] => lpm_compare:LPM_COMPARE_component.dataa[1]
+dataa[2] => lpm_compare:LPM_COMPARE_component.dataa[2]
+dataa[3] => lpm_compare:LPM_COMPARE_component.dataa[3]
+dataa[4] => lpm_compare:LPM_COMPARE_component.dataa[4]
+dataa[5] => lpm_compare:LPM_COMPARE_component.dataa[5]
+dataa[6] => lpm_compare:LPM_COMPARE_component.dataa[6]
+dataa[7] => lpm_compare:LPM_COMPARE_component.dataa[7]
+dataa[8] => lpm_compare:LPM_COMPARE_component.dataa[8]
+dataa[9] => lpm_compare:LPM_COMPARE_component.dataa[9]
+dataa[10] => lpm_compare:LPM_COMPARE_component.dataa[10]
+dataa[11] => lpm_compare:LPM_COMPARE_component.dataa[11]
+aleb <= lpm_compare:LPM_COMPARE_component.aleb
+
+
+|comparador_adc|lpm_compare:LPM_COMPARE_component
+dataa[0] => cmpr_kfj:auto_generated.dataa[0]
+dataa[1] => cmpr_kfj:auto_generated.dataa[1]
+dataa[2] => cmpr_kfj:auto_generated.dataa[2]
+dataa[3] => cmpr_kfj:auto_generated.dataa[3]
+dataa[4] => cmpr_kfj:auto_generated.dataa[4]
+dataa[5] => cmpr_kfj:auto_generated.dataa[5]
+dataa[6] => cmpr_kfj:auto_generated.dataa[6]
+dataa[7] => cmpr_kfj:auto_generated.dataa[7]
+dataa[8] => cmpr_kfj:auto_generated.dataa[8]
+dataa[9] => cmpr_kfj:auto_generated.dataa[9]
+dataa[10] => cmpr_kfj:auto_generated.dataa[10]
+dataa[11] => cmpr_kfj:auto_generated.dataa[11]
+datab[0] => cmpr_kfj:auto_generated.datab[0]
+datab[1] => cmpr_kfj:auto_generated.datab[1]
+datab[2] => cmpr_kfj:auto_generated.datab[2]
+datab[3] => cmpr_kfj:auto_generated.datab[3]
+datab[4] => cmpr_kfj:auto_generated.datab[4]
+datab[5] => cmpr_kfj:auto_generated.datab[5]
+datab[6] => cmpr_kfj:auto_generated.datab[6]
+datab[7] => cmpr_kfj:auto_generated.datab[7]
+datab[8] => cmpr_kfj:auto_generated.datab[8]
+datab[9] => cmpr_kfj:auto_generated.datab[9]
+datab[10] => cmpr_kfj:auto_generated.datab[10]
+datab[11] => cmpr_kfj:auto_generated.datab[11]
+clock => ~NO_FANOUT~
+aclr => ~NO_FANOUT~
+clken => ~NO_FANOUT~
+alb <= <GND>
+aeb <= <GND>
+agb <= <GND>
+aleb <= cmpr_kfj:auto_generated.aleb
+aneb <= <GND>
+ageb <= <GND>
+
+
+|comparador_adc|lpm_compare:LPM_COMPARE_component|cmpr_kfj:auto_generated
+aleb <= aleb~0.DB_MAX_OUTPUT_PORT_TYPE
+dataa[0] => _~11.IN0
+dataa[0] => op_1.IN23
+dataa[1] => _~10.IN0
+dataa[1] => op_1.IN21
+dataa[2] => _~9.IN0
+dataa[2] => op_1.IN19
+dataa[3] => _~8.IN0
+dataa[3] => op_1.IN17
+dataa[4] => _~7.IN0
+dataa[4] => op_1.IN15
+dataa[5] => _~6.IN0
+dataa[5] => op_1.IN13
+dataa[6] => _~5.IN0
+dataa[6] => op_1.IN11
+dataa[7] => _~4.IN0
+dataa[7] => op_1.IN9
+dataa[8] => _~3.IN0
+dataa[8] => op_1.IN7
+dataa[9] => _~2.IN0
+dataa[9] => op_1.IN5
+dataa[10] => _~1.IN0
+dataa[10] => op_1.IN3
+dataa[11] => _~0.IN0
+dataa[11] => op_1.IN1
+datab[0] => _~11.IN1
+datab[0] => op_1.IN24
+datab[1] => _~10.IN1
+datab[1] => op_1.IN22
+datab[2] => _~9.IN1
+datab[2] => op_1.IN20
+datab[3] => _~8.IN1
+datab[3] => op_1.IN18
+datab[4] => _~7.IN1
+datab[4] => op_1.IN16
+datab[5] => _~6.IN1
+datab[5] => op_1.IN14
+datab[6] => _~5.IN1
+datab[6] => op_1.IN12
+datab[7] => _~4.IN1
+datab[7] => op_1.IN10
+datab[8] => _~3.IN1
+datab[8] => op_1.IN8
+datab[9] => _~2.IN1
+datab[9] => op_1.IN6
+datab[10] => _~1.IN1
+datab[10] => op_1.IN4
+datab[11] => _~0.IN1
+datab[11] => op_1.IN2
+
+
